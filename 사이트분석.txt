@@ -1,0 +1,208 @@
+분석 https://pofo.themezaa.com/home-classic-interactive-agency/
+
+컨텐츠 영역:1170px (좌우여백: 0 15px)-1140px
+전체 각 섹션별 패럴록스기능 모두 구현
+
+
+헤더
+width:100%
+height:60px
+컨텐츠 영역:1170px
+좌측:로고 105 26px
+중간우측:네비 메인메뉴 좌우여백 20px
+폰트:Montserrat;
+컬러:#232323
+서브메뉴:#
+우측: 아이콘 사이드 메뉴 너비 146px
+
+패럴록스
+스크롤이 아래로 내려가면 
+헤더가 위로 부드럽게  안보일 때까지 올라가고
+스크롤이 위로 올라가면 헤더가 아래로 부드럽게 내려온다. 메뉴선택가능한 상태 
+case1-----
+scrolltop값이 0인경우 ~ 맨위에 도달시 상단에 고정한다(헤더 보인다) 디폴트값
+height:72px;
+top:0;
+
+case2---------
+스크롤 탑값이 그리고 스크롤방향이 아래방향 경우 
+상단에 고정한다(헤더안보임)hide
+width:100%;
+height:60px
+top:-60px;
+
+
+메인
+-섹션1
+width:100%
+height:100%;
+메인슬라이드 3개 풀 스크린제작
+드래그 앤 드롭 
+타이머콘트럴
+일정시간지나면 다시 플레이
+
+
+-섹션2
+패딩:130px 0
+배경:#f7f7f7
+
+-섹션3
+
+-섹션4
+width:100%
+color:#6f6f6f;
+font-size:12px 
+font-wight:600;
+패딩-bottom:2px
+장식:아래 밑줄
+반응형 액티비티 애니메이션 갤러리 
+너비에따라 버튼클릭에 따라 애니메이션 이미지 재배치
+4
+3
+2
+1
+
+width:100%
+
+-섹션5
+패딩:130px
+배경:#fff
+
+
+
+-섹션6
+width:100%
+패딩:0;
+
+-섹션7
+width:100%
+padding:130px 0
+배경:#fff
+-섹션8
+width:100%
+height:602.438px;
+
+-섹션9
+width:100%
+
+
+-섹션10
+
+푸터
+
+PORTFOLIO HOMEPAGES
+Portfolio Minimal
+Portfolio Multiple Carousel
+Portfolio Centered Slides
+Portfolio Personal
+Portfolio Metro
+Portfolio Full Screen – Vertical
+Portfolio Photographer
+Portfolio Parallax
+BLOG HOMEPAGES
+Blog Grid
+Blog Masonry
+Blog Clean
+Blog Personal
+
+About
+Services
+Contact
+Contact Simple
+Contact Classic
+Contact Classic – Style 02
+Contact Modern
+Team
+Team Simple
+Team Classic
+Addition Pages
+
+About Us Simple
+About Us Classic
+About Us Modern
+About Me
+
+2-2
+Services Simple
+Services Classic
+Services Modern
+
+2-3
+Contact Simple
+Contact Classic
+Contact Classic – Style 02
+Contact Modern
+
+2-4
+Team Simple
+Team Classic
+
+2-5
+Our Clients
+Error 404
+Coming Soon
+Coming Soon – Style 02
+Faq
+Maintenance
+Search Result
+Pricing
+
+Contact Simple
+Contact Classic
+Contact Classic – Style 02
+Contact Modern
+
+GRID – FULL WIDTH LAYOUTS
+Portfolio Grid Overlay
+Portfolio Grid With Icon
+Portfolio Grid Transform
+Portfolio Grid Zooming
+MASONRY – FULL WIDTH LAYOUTS
+Portfolio Masonry Overlay
+Portfolio Masonry With Icon
+METRO – FULL WIDTH LAYOUTS
+Portfolio Metro Overlay
+Portfolio Metro With Icon
+Portfolio Metro Transform
+Portfolio Metro Zooming
+OTHER – FULL WIDTH LAYOUTS
+Portfolio Image Gallery
+Portfolio Justified
+Portfolio Carousel
+Portfolio Parallax
+
+GRID – BOXED LAYOUTS
+Portfolio Grid Overlay
+Portfolio Grid With Icon
+Portfolio Grid Transform
+Portfolio Grid Zooming
+MASONRY – BOXED LAYOUTS
+Portfolio Masonry Overlay
+Portfolio Masonry With Icon
+METRO – BOXED LAYOUTS
+Portfolio Metro Overlay
+Portfolio Metro With Icon
+Portfolio Metro Transform
+Portfolio Metro Zooming
+OTHER – BOXED LAYOUTS
+Portfolio Image Gallery
+Portfolio Justified
+Portfolio Carousel
+Portfolio Parallax
+
+
+Blog Standard
+Blog Classic
+Blog List
+Blog Grid
+Blog Masonary
+Blog Simple
+Blog Clean
+Blog Images
+Blog Only Text
+Post Layout
+
+Post Type
+
+h3 fomt-size: 18px; font-weight:300;
+h2 fomt-size: 18px; font-weight:300;
